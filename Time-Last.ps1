@@ -30,7 +30,7 @@ if ($diff_h -ge 4){
 } elseif ($diff_h -eq 0 -and $diff_m -lt 30 -and $diff_m -ge 5) {
     echo "Less than half an hour until you're done!"
 } elseif ($diff_h -eq 0 -and $diff_m -lt 5 -and $diff_m -ge 0) {
-    echo "Pack your stuff, you're can leave buddy!"
+    echo "Pack your stuff, you can leave buddy!"
 } else {
     echo "else"
 }
